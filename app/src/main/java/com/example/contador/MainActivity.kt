@@ -32,7 +32,8 @@ class MainActivity : AppCompatActivity() {
         }
         val btnClear : Button = findViewById(R.id.btnClear)
         btnClear.setOnClickListener {
-            tvNumber.text = "0"
+            count = 0
+            tvNumber.text = count.toString()
         }
     }
 
